@@ -1,0 +1,42 @@
+--- /dev/fd/63	2015-12-09 11:30:53.736806026 +0000
++++ /dev/fd/62	2015-12-09 11:30:53.734805991 +0000
+@@ -45,10 +45,10 @@
+ ####
+ #### Audio Input
+ ####
+--input mic    			# live microphone
++#-input mic    			# live microphone
+ #-input rawfile			# wavefile
+ #-input mfcfile			# MFCC file (HTK Parameter file)
+-#-input stdin			# waveform from standard input
++-input stdin			# waveform from standard input
+ #-input adinnet			# waveform via network client
+ #-input netaudio		# DatLink server
+ #-input oss			# OSS API input (if available)
+@@ -265,7 +265,7 @@
+ -spmodel "sp"			# name of a short-pause silence model
+ #-multipath			# force enable MULTI-PATH model handling
+ #§§§§-iwcd1 best 5  # assign average of N-best likelihood of the same context
+--iwcd1 best 5
++#-iwcd1 best 5 
+ #§§§§-gprune safe      # safe pruning, accurate but slow
+ -gprune safe
+ 
+@@ -275,7 +275,7 @@
+ #-gsnum 24			# Threshold number of HMM for gshmm
+ ## Analysis
+ #-smpPeriod 625			# sampling period (ns) (= 10000000 / smpFreq)
+-#-smpFreq 22050			# sampling rate (Hz)
++-smpFreq 16000			# sampling rate (Hz)
+ #-fsize 400			# window size (samples)
+ #-fshift 160			# frame shift (samples)
+ #-preemph 0.97			# pre-emphasis coef.
+@@ -331,7 +331,7 @@
+ #### parameter (common)
+ ####
+ #-inactive			# start this process with inactive status
+-#-1pass				# perform only the 1st pass, omit 2nd pass
++-1pass				# perform only the 1st pass, omit 2nd pass
+ #-no_ccd			# switch off the phone context dependency
+ #§§§§-force_ccd			# force on the phone context dependency
+ -force_ccd

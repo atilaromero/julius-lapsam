@@ -1,0 +1,14 @@
+{
+  "name": "coruja",
+  "version": "0.0.0",
+  "description": "Reconhecimento de voz em portugues, usando Coruja e Julius",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "atilaromero@gmail.com",
+  "license": "GPL",
+  "dependencies": {
+    "express": "~4.13.3"
+  }
+}
