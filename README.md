@@ -1,11 +1,11 @@
 #Descrição
-Este projeto usa o Docker para automatizar a instalação do Coruja no Linux, facilitando a realização de testes com a ferramenta.
-
-##Coruja
-O Coruja é um "Software para reconhecimento de voz em Português Brasileiro":http://www.laps.ufpa.br/falabrasil/downloads.php
+Este projeto usa o Docker para automatizar a instalação do Julius usando o LaPSAM no Linux, facilitando a realização de testes de reconhecimento de fala em pt-BR.
 
 ##Julius
 O Julius é um "high-performance, small-footprint large vocabulary continuous speech recognition (LVCSR) decoder software for speech-related researchers and developers.":https://github.com/julius-speech/julius
+
+##LaPSAM
+O LaPSAM é um "modelo acústico criado com o software HTK": http://www.laps.ufpa.br/falabrasil/downloads.php
 
 #Para testar no Linux:
 - Instale o docker: http://docs.docker.com/engine/installation/
