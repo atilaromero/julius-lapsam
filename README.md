@@ -18,7 +18,7 @@ cat teste.wav | docker-compose run --rm julius
 
 #Para criar no Linux um servidor HTTP simples que recebe um arquivo de áudio e retorna o texto reconhecido:
 1. Instale o docker e o docker-compose
-2. Instale o node.js: https://docs.npmjs.com/getting-started/installing-node
+2. Instale o node.js e o npm: https://docs.npmjs.com/getting-started/installing-node
 3. Vá para o diretório raiz do projeto
 4. Prepare o npm:
   ```
