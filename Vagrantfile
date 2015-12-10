@@ -26,7 +26,7 @@ node index.js
 SCRIPT
 
 Vagrant.configure(2) do |config|
-config.vm.box = "ubuntu/trusty64"
+config.vm.box = "phusion/ubuntu-14.04-amd64"
 config.vm.network "forwarded_port", guest: 8081, host: 8081
 
 # Provision using inline script defined above.
