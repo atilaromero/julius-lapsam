@@ -2,10 +2,14 @@
 Este projeto usa o Docker para automatizar a instalação do Julius usando o LaPSAM no Linux (e no Windows via Vagrant), facilitando a realização de testes de reconhecimento de fala em pt-BR.
 
 ##Julius
-O Julius é um "high-performance, small-footprint large vocabulary continuous speech recognition (LVCSR) decoder software for speech-related researchers and developers.":https://github.com/julius-speech/julius
+O Julius é um *"high-performance, small-footprint large vocabulary continuous speech recognition (LVCSR) decoder software for speech-related researchers and developers."*:https://github.com/julius-speech/julius
 
 ##LaPSAM
-O LaPSAM é um "modelo acústico criado com o software HTK": http://www.laps.ufpa.br/falabrasil/downloads.php
+O LaPSAM é um *"modelo acústico criado com o software HTK"*: http://www.laps.ufpa.br/falabrasil/downloads.php
+
+Foi utilizado o LaPSAM do Coruja para Java: http://www.laps.ufpa.br/falabrasil/jlapsapi
+
+O Coruja é um *"software para reconhecimento de voz em Português Brasileiro, composto por uma API desenvolvida em C++ com suporte a CLR (Common Language Runtime) para controle em tempo-real do decodificador Julius e um modelo acústico (LaPSAM 1.5) construído com a ferramenta HTK"*:http://www.laps.ufpa.br/falabrasil/downloads.php
 
 #Para testar no Linux:
 - Instale o docker: http://docs.docker.com/engine/installation/
