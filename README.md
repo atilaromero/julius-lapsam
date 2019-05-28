@@ -1,5 +1,5 @@
 # Descrição
-Este projeto usa o Docker para automatizar a instalação do Julius usando o LaPSAM no Linux (e no Windows via Vagrant), facilitando a realização de testes de reconhecimento de fala em pt-BR.
+Este projeto usa o Docker para automatizar a instalação do Julius usando o LaPSAM no Linux, facilitando a realização de testes de reconhecimento de fala em pt-BR.
 
 ## Para testar no Linux
 ```
